@@ -1,0 +1,7 @@
+@startuml
+actor user
+participant backend
+database dataStore
+user -> backend: Hello
+@enduml
+
